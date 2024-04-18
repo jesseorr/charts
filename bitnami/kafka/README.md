@@ -181,6 +181,8 @@ externalAccess.service.controller.containerPorts.external=9094
 externalAccess.autoDiscovery.enabled=true
 serviceAccount.create=true
 rbac.create=true
+controller.automountServiceAccountToken=true
+broker.automountServiceAccountToken=true
 ```
 
 Note: This option requires creating RBAC rules on clusters where RBAC policies are enabled.
